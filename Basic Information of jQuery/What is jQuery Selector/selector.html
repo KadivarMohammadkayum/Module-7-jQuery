@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Slector</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- online jQuery cdn -->
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <!-- jQuery start -->
+    <script>
+        
+        $(document).ready(function(){
+                // element selector
+            $("button").click(function(){
+                // id selector
+            $("#para1").hide();
+        })
+        })
+
+        $(document).ready(function(){
+                // element selector
+            $("button").click(function(){
+                // class selector
+            $(".para2").hide();
+        });
+        })
+        // class selector
+        // element selector
+    </script>
+</head>
+<body>
+    <!-- Main Three type jQuery Selector
+    
+        1) id Selector
+        2) class Selector
+        3) element  Selector
+
+    -->
+    <h2>This is a heading</h2>
+
+    <p id="para1">This is a paragraph.</p>
+    <p class="para2">This is another paragraph.</p>
+
+    <button>Click me to hide paragraphs</button>
+</body>
+</html>
